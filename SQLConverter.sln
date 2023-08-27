@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34018.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQLConverter", "SQLConverter.csproj", "{BC503F16-4239-4A93-94AC-D3DAA640C561}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC503F16-4239-4A93-94AC-D3DAA640C561}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC503F16-4239-4A93-94AC-D3DAA640C561}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC503F16-4239-4A93-94AC-D3DAA640C561}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC503F16-4239-4A93-94AC-D3DAA640C561}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3474CC6C-81CB-4707-8104-506CEE8DEA87}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+D:\NeoVim\csharp\SQLConverter\bin\Debug\net6.0\SQLConverter.exe
+D:\NeoVim\csharp\SQLConverter\bin\Debug\net6.0\SQLConverter.deps.json
+D:\NeoVim\csharp\SQLConverter\bin\Debug\net6.0\SQLConverter.runtimeconfig.json
+D:\NeoVim\csharp\SQLConverter\bin\Debug\net6.0\SQLConverter.dll
+D:\NeoVim\csharp\SQLConverter\bin\Debug\net6.0\SQLConverter.pdb
+D:\NeoVim\csharp\SQLConverter\obj\Debug\net6.0\SQLConverter.GeneratedMSBuildEditorConfig.editorconfig
+D:\NeoVim\csharp\SQLConverter\obj\Debug\net6.0\SQLConverter.AssemblyInfoInputs.cache
+D:\NeoVim\csharp\SQLConverter\obj\Debug\net6.0\SQLConverter.AssemblyInfo.cs
+D:\NeoVim\csharp\SQLConverter\obj\Debug\net6.0\SQLConverter.csproj.CoreCompileInputs.cache
+D:\NeoVim\csharp\SQLConverter\obj\Debug\net6.0\SQLConverter.dll
+D:\NeoVim\csharp\SQLConverter\obj\Debug\net6.0\refint\SQLConverter.dll
+D:\NeoVim\csharp\SQLConverter\obj\Debug\net6.0\SQLConverter.pdb
+D:\NeoVim\csharp\SQLConverter\obj\Debug\net6.0\SQLConverter.genruntimeconfig.cache
+D:\NeoVim\csharp\SQLConverter\obj\Debug\net6.0\ref\SQLConverter.dll
