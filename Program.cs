@@ -1,38 +1,46 @@
 ﻿using System.Text.RegularExpressions;
-internal class Program
+
+var fileName = args.AsQueryable().FirstOrDefault();
+var filePath = (string)null;
+
+if (fileName == null)
 {
-    static public void ReplaceWords(string filePath, string searchText, string replaceText)
-    {
-        StreamReader reader = new StreamReader(filePath);
-        string content = reader.ReadToEnd();
-        reader.Close();
+    Console.WriteLine("Filepath: ");
+    filePath = Console.ReadLine().Replace("\"","");
+}
+else
+{
+    filePath = Directory.GetCurrentDirectory() + "\\" + fileName;
+}
 
-        content = Regex.Replace(content, searchText, replaceText);
+// 
+string[] keyWords = { };
 
-        StreamWriter writer = new StreamWriter(filePath);
-        writer.Write(content);
-        writer.Close();
-    }
+void ReplaceInFile(string filePath, string searchText, string replaceText)
+{
+    StreamReader reader = new StreamReader(filePath);
+    string content = reader.ReadToEnd();
+    reader.Close();
 
-    static void Main(string[] args)
-    {
+    content = Regex.Replace(content, $@"(?<!')\b{searchText}\b(?!')", replaceText); // regex for sql reco
 
-        string[] keyWords = {"add", "constraint", "all", "alter", "column", "table", "and"
-        , "any", "as", "asc", "backup database", "between", "case", "check", "column"
-        , "create", "index"};
+    StreamWriter writer = new StreamWriter(filePath);
+    writer.Write(content);
+    writer.Close();
+}
 
-
-
-        Console.WriteLine("FilePath");
-        string filePath = Console.ReadLine().Replace("\""," ");
-
-        foreach (string word in keyWords)
-        {
-            string upperWord = word.ToUpper();
-            string lowerWord = word.ToLower();
-
-            ReplaceWords(filePath, lowerWord, upperWord);
-        }
-    }
+foreach (string keyWord in keyWords)
+{
+    var wordLower = keyWord.ToLower();
+    var wordUpper = keyWord.ToUpper(); 
+    ReplaceInFile(filePath, wordLower, wordUpper);
+}
+foreach (string keyWord in keyWords)
+{
+    string wordLower = keyWord.Substring(0,1);
+    string rest = keyWord.Substring(1);
+    wordLower = wordLower.ToUpper();
+    string wordUpper = keyWord.ToUpper();
+    ReplaceInFile(filePath, wordLower, wordUpper);
 }
 
