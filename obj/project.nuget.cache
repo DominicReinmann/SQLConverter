@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "hKkUgPMn1Db5EpyEXXlutXhMBE69B98Tj433onYTSI67zr8jtHM/++UikTcB8dODyO0ar4Nb+hmliu7BHeo06Q==",
+  "dgSpecHash": "kn6Hl0bveFZRiF9ewyiigPJ9ptaXoHi4YQE6doYfXCAns0H04NGPM6benHBr/nt7frLMMTNkDs91VZJ3MwX5ig==",
   "success": true,
   "projectFilePath": "C:\\Programming\\VisualStudio\\SQLConverter\\SQLConverter.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\domre\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.19\\microsoft.netcore.app.ref.6.0.19.nupkg.sha512",
+    "C:\\Users\\domre\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.19\\microsoft.windowsdesktop.app.ref.6.0.19.nupkg.sha512",
+    "C:\\Users\\domre\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.19\\microsoft.aspnetcore.app.ref.6.0.19.nupkg.sha512",
+    "C:\\Users\\domre\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.19\\microsoft.netcore.app.host.win-x64.6.0.19.nupkg.sha512"
+  ],
   "logs": []
 }

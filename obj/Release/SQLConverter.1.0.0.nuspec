@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>SQLConverter</id>
+    <version>1.0.0</version>
+    <authors>SQLConverter</authors>
+    <description>Package Description</description>
+    <packageTypes>
+      <packageType name="DotnetTool" />
+    </packageTypes>
+    <repository type="git" commit="c7b65077f65711b8167ef84b6f14da93f03575fb" />
+  </metadata>
+  <files>
+    <file src="C:\Programming\VisualStudio\SQLConverter\obj\DotnetToolSettings.xml" target="tools\net6.0\any\DotnetToolSettings.xml" />
+    <file src="C:\Programming\VisualStudio\SQLConverter\bin\Release\net6.0\publish\SQLConverter.dll" target="tools\net6.0\any\SQLConverter.dll" />
+    <file src="C:\Programming\VisualStudio\SQLConverter\bin\Release\net6.0\publish\SQLConverter.deps.json" target="tools\net6.0\any\SQLConverter.deps.json" />
+    <file src="C:\Programming\VisualStudio\SQLConverter\bin\Release\net6.0\publish\SQLConverter.runtimeconfig.json" target="tools\net6.0\any\SQLConverter.runtimeconfig.json" />
+    <file src="C:\Programming\VisualStudio\SQLConverter\bin\Release\net6.0\publish\SQLConverter.pdb" target="tools\net6.0\any\SQLConverter.pdb" />
+  </files>
+</package>

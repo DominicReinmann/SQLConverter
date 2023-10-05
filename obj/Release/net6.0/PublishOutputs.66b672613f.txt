@@ -1,0 +1,5 @@
+C:\Programming\VisualStudio\SQLConverter\bin\Release\net6.0\publish\SQLConverter.exe
+C:\Programming\VisualStudio\SQLConverter\bin\Release\net6.0\publish\SQLConverter.dll
+C:\Programming\VisualStudio\SQLConverter\bin\Release\net6.0\publish\SQLConverter.deps.json
+C:\Programming\VisualStudio\SQLConverter\bin\Release\net6.0\publish\SQLConverter.runtimeconfig.json
+C:\Programming\VisualStudio\SQLConverter\bin\Release\net6.0\publish\SQLConverter.pdb
