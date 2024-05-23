@@ -1,6 +1,6 @@
 # SQLConverter
 
-Simple CLI Tool to convert your SQL keywords to Uppercase 
+A simple CLI Tool that lets you convert all Sql kywords to uppercase so you dont have to toggle tab all the time while Coding
 
 ## Installation
 ```bash
