@@ -9,7 +9,14 @@ dotnet tool install --global .\nupkg\ SQLConverter
 
 ## Usage
 ```bash
+# To convert a single file
 sql <filename>
+
+# To convert all files in a directory
+sql -p <path> -a 
+
+# To get help
+sql -h
 ```
 |Command|description|
 |--|--|
