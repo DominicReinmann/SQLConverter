@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Programming\\VisualStudio\\SQLConverter\\SQLConverter.csproj": {}
+    "C:\\Programming\\csharp\\SQLConverter\\SQLConverter.csproj": {}
   },
   "projects": {
-    "C:\\Programming\\VisualStudio\\SQLConverter\\SQLConverter.csproj": {
-      "version": "1.0.0",
+    "C:\\Programming\\csharp\\SQLConverter\\SQLConverter.csproj": {
+      "version": "1.0.1",
       "restore": {
-        "projectUniqueName": "C:\\Programming\\VisualStudio\\SQLConverter\\SQLConverter.csproj",
+        "projectUniqueName": "C:\\Programming\\csharp\\SQLConverter\\SQLConverter.csproj",
         "projectName": "SQLConverter",
-        "projectPath": "C:\\Programming\\VisualStudio\\SQLConverter\\SQLConverter.csproj",
+        "projectPath": "C:\\Programming\\csharp\\SQLConverter\\SQLConverter.csproj",
         "packagesPath": "C:\\Users\\domre\\.nuget\\packages\\",
-        "outputPath": "C:\\Programming\\VisualStudio\\SQLConverter\\obj\\",
+        "outputPath": "C:\\Programming\\csharp\\SQLConverter\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -41,12 +41,20 @@
           ]
         },
         "restoreAuditProperties": {
-          "enableAudit": "default"
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "CommandLineParser": {
+              "target": "Package",
+              "version": "[2.9.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,30 +66,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.19, 6.0.19]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.19, 6.0.19]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.19, 6.0.19]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.19, 6.0.19]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.6.23330.14\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300-preview.24203.14\\RuntimeIdentifierGraph.json"
         }
       }
     }
