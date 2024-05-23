@@ -13,7 +13,9 @@ sql <filename>
 ```
 |Command|description|
 |--|--|
-|-f / --f| |
+|-h / --h| Opens Help|
+|-p / --p | prefix for the path input|
+|-a / --a | converts all sql files in the active directory|
 
 ## Update 
 ```bash
