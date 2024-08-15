@@ -21,6 +21,11 @@
 *.appsettings
 
 
+# some others 
+*bin
+*obj
+obj/*
+bin/*
 # Mono auto generated files
 mono_crash.*
 
